@@ -1,11 +1,11 @@
 Python Docx Templates
 ========================
 
-This module is used to automate the generation of documents according to a predefined docx (Word) template.
+This module is used to **automate the generation** of documents according to a predefined **docx (Word) template**.
 
 Store the template into the "template" folder, add the appropriate tags, and use the library according to the following example:
 
-image:: screenshot.png
+.. image:: screenshot.png
 
 Source code: ::
 
