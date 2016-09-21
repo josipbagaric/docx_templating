@@ -1,13 +1,20 @@
 Python Docx Templates
 ========================
 
-This module is used to **automate the generation** of documents according to a predefined **docx (Word) template**.
+This module is used to **automate** the generation of documents according to a predefined **docx (Word) template**.
+It is based on the python-docx.
 
 Store the template into the "template" folder, add the appropriate tags, and use the library according to the following example:
 
+**Installation**
+::
+  pip install git+https://github.com/Bagaric/docx_templating.git
+
 .. image:: screenshot.png
 
-Source code: ::
+**Source code:**
+
+.. code-block:: python
 
   from docx_templating import Report
   
@@ -45,5 +52,3 @@ Source code: ::
   
   # Lastly, export the document
   report.save("document.docx")
-
-
