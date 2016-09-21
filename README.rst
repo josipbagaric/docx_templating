@@ -9,9 +9,7 @@ Store the template into the "template" folder, add the appropriate tags, and use
 
 Source code: ::
 
-  import bdblib
-  from task_docx_template_AS_lib import Report
-  # For Python 2.7 use  -  from task_docx_template_AS_lib_py27 import Report
+  from docx_templating import Report
   
   report = Report(title='Title', subtitle="Sub title", version="0.1")
   
